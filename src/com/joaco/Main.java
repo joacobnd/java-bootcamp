@@ -3,14 +3,13 @@ package com.joaco;
 public class Main {
 
     public static void main(String[] args) {
-        // single line comment
-
-        /*
-            Multi
-            Line
-            Comment
-         */
-        System.out.println("Hello Java!");
-        System.out.println(10 + 10);
+       // primitives
+        int number1 = 20;
+        int number2 = 20;
+        int result = number1 + number2;
+        System.out.println(result);
+        double pi = 3.14;
+        boolean isAdult = false;
+        char a = 'A';
     }
 }
