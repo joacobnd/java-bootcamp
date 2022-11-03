@@ -1,22 +1,36 @@
 package com.joaco;
 
 import java.awt.*;
+import java.lang.reflect.Array;
+import java.util.Arrays;
 
 public class Main {
 
     public static void main(String[] args) {
-        // Pass by Value with objects
-        Point pointA = new Point(10, 10);
-        Point pointB = pointA;
 
-        // En memory stack la referencia para ambos point es la misma, por ende la info que se guarda dentro del Heap es la misma para ambos(Comparten la misma info).
+        //Arrays
 
-        pointB.x = 100;
-        System.out.println(pointA);
-        System.out.println(pointB);
+        int[] numbers = new int[5];
+        numbers[0] = 22;
+        numbers[1] = 6;
+        numbers[2] = 88;
+        numbers[3] = 56;
+        numbers[4] = 30;
+        System.out.println("Array 1: " + Arrays.toString(numbers));
+        System.out.println(numbers.length);
 
-        // al usar new point ahora si estamos creando en la memory stack un frame nuevo con una referencia en el heap(Ya no comparten la misma info).
-        pointB = new Point(55, 55);
+        System.out.println();
+
+        int[] numbers2 = {12, 22, 9, 13, 90, 54, 113};
+        System.out.println("Array 2: " + Arrays.toString(numbers2));
+        System.out.println(numbers2.length);
+
+
+        String[] names = {"Jamila", "Alex"};
+        System.out.println(Arrays.toString(names));
+
+
     }
 
 }
+
