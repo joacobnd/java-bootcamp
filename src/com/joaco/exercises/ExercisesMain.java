@@ -2,6 +2,7 @@ package com.joaco.exercises;
 
 
 import java.util.Arrays;
+import java.util.Objects;
 
 public class ExercisesMain {
 
@@ -122,6 +123,109 @@ public class ExercisesMain {
             sum += sumNumbers[i];
         }
         System.out.println(sum);
+
+        //Exercise 14
+        // create a for loop which goes through each string in our array
+        // make each word uppercase
+        // assign the value in the array to the uppercase string
+        // print our resulting array
+
+        System.out.println("");
+        System.out.println("Exercise 14: ");
+        String[] exercise14 = {"i", "sure", "do", "love", "bees"};
+        String[] resolveExercise14 = new String[exercise14.length];
+        for (int i = 0; i < exercise14.length; i++) {
+            resolveExercise14[i] = exercise14[i].toUpperCase();
+        }
+
+        for (String s : resolveExercise14) {
+            System.out.println(s);
+        }
+
+
+        //Exercise 15
+        // create a for loop which goes through each string in our array
+        // grab the first letter of our word
+        // capitalise the first letter
+        // add the capitalised letter to the rest of the provided word
+        // assign the value to an array
+        // print our resulting array
+
+        System.out.println("");
+        System.out.println("Exercise 15: ");
+        String[] exercise15 = {"i", "sure", "do", "love", "bees"};
+        String[] resolveExercise15 = new String[exercise15.length];
+        for (int i = 0; i < exercise15.length; i++) {
+            resolveExercise15[i] = exercise15[i].toUpperCase().charAt(0) + exercise15[i].substring(1, exercise15[i].length()).toLowerCase();
+        }
+
+        for (String s : resolveExercise15) {
+            System.out.println(s);
+        }
+
+        //Exercise 16
+        // create a for loop which goes through number in our array
+        // check whether the value is greater than the current greatest value
+        // reassign the current greatest value if true
+        // print the greatest value
+
+        System.out.println("");
+        System.out.println("Exercise 16: ");
+        int[] exercise16 = {1, 6, 54, 17, 9, 20, 5};
+        int numMax = 0;
+        for (int i : exercise16) {
+            if (i > numMax) {
+                numMax = i;
+            }
+        }
+        System.out.println(numMax);
+
+        //Exercise 17
+//        Write a program that reverses an array of Strings
+//        String[] content = {"you", "are", "how", "hello"}
+//        Tip. Use for loop and you to start at highest index.
+//        Output should be: hello how are you?. Note question mark at the end
+        System.out.println();
+        System.out.println("Exercise 17: ");
+        String[] exercise17 = {"you", "are", "how", "hello"};
+        String[] exercise17Resolve = new String[exercise17.length];
+        int index = 0;
+        for (int i = exercise17.length-1 ; i >= 0; i--) {
+            exercise17Resolve[index] = exercise17[i];
+            if (i == 0) {
+                exercise17Resolve[index] = exercise17[i]+"?";
+            }
+            index++;
+        }
+        System.out.println(Arrays.toString(exercise17Resolve));
+
+
+        //Exercise 18
+        /*
+        Write a program that adds total amount for this string "0.90, 1.00, 9.00, 8.78, 0.01".
+
+        Tip:
+        - String input = "0.90, 1.00, 9.00, 8.78, 0.01";
+        - create variable to store result. double result = 0;
+        - convert string to array.
+        - then loop.
+        - convert each string to decimal and add to current result
+    */
+        System.out.println("");
+        System.out.println("Exercise 18: ");
+        String input = "0.90, 1.00, 9.00, 8.78, 0.01";
+        String[] resolveExercise18 = input.split(",");
+        double result = 0;
+
+        for (String s : resolveExercise18) {
+            result += Double.parseDouble(s);
+        }
+
+        System.out.println(result);
+
+
+
+
 
 
 
