@@ -1,23 +1,30 @@
 package com.joaco;
 
 
-import java.util.Arrays;
+import javax.swing.plaf.ComponentInputMapUIResource;
+import java.lang.String;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        // Arrays null values
-        int[] numbers = new int[3];
-        Arrays.fill(numbers, -1);  //Rellena la array con el valor que indiquemos
-        numbers[2] = 27;
-        System.out.println(Arrays.toString(numbers));
+        //Exercise transoform amigoscode to Amigoscode
+        String name = "amigoscode";
+        String nameInUpperCase = name.toUpperCase().charAt(0) + name.substring(1, name.length()).toLowerCase();
+        System.out.println(nameInUpperCase);
 
 
-        String[] names = new String[3];
-        Arrays.fill(names, "foo");
-        names[1] = "Jamila";
-        System.out.println(Arrays.toString(names));
+
+        //Exercise compare 2 strings
+        System.out.println("Comparacion");
+        String name1 = "Joaquin";
+        String name2 = "joaquin";
+        String name3 = "Maxi";
+        Boolean result = name1.equals(name2);
+        Boolean result2 = name1.equalsIgnoreCase(name2);
+
+        System.out.println(result);
+        System.out.println(result2);
 
     }
 
