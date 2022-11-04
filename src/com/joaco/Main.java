@@ -5,29 +5,14 @@ package com.joaco;
 public class Main {
 
     public static void main(String[] args) {
-        // Loops and Arrays
-        String[] names = {"James", "Nadia", "Sophia", "Alex", "Saleh", "Aisha"};
+        // while loops
 
-        System.out.println("for i loop:");
-        for (int i = 0; i < names.length ; i++) {
-            System.out.println(names[i]);
+        int i = 0;
+        boolean keepLooping = true;
+        while (keepLooping) {
+            System.out.println("Hello " + i++);
+            keepLooping = false;
         }
-
-
-        System.out.println("");
-        System.out.println("enhanced for loop:");
-        for (String name : names) {
-            System.out.println(name);
-        }
-
-
-
-
-//        System.out.println(names[0]);
-//        System.out.println(names[1]);
-//        System.out.println(names[2]);
-//        System.out.println(names[3]);
-
 
     }
 
