@@ -5,20 +5,16 @@ package com.joaco;
 public class Main {
 
     public static void main(String[] args) {
-        // Else If
+        // && AND Logical Operators
 
-        int age = 0;
+        int age = 4;
         boolean isAdult = age >= 18;
 
         if (isAdult) {
             System.out.println("is adult :)");
         } else if (age == 0) {
             System.out.println("baby :)");
-        } else if (age == 1) {
-            System.out.println("toddler :)");
-        } else if (age == 2) {
-            System.out.println("toddler :)");
-        } else if (age == 3) {
+        } else if (age > 0 && age <=3) {                  //All boolean values need to be true if just one is false the code is skipped
             System.out.println("toddler :)");
         } else {
             System.out.println("is not adult :(");
