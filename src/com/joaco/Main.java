@@ -5,14 +5,19 @@ package com.joaco;
 public class Main {
 
     public static void main(String[] args) {
-        // do while loops
+        // If Statements
 
-        int i = 0;
-        boolean keepLooping = true;
-        do {
-            System.out.println("Hello " + i++);
-            keepLooping = false;
-        } while (keepLooping);
+        int age = 23;
+        boolean isAdult = age >= 18;
+
+        if (isAdult) {
+            System.out.println("is adult");
+        } else {
+            System.out.println("is not adult");
+        }
+
+
+
 
     }
 
