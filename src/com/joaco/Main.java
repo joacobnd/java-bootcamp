@@ -1,14 +1,16 @@
 package com.joaco;
 
 
-import java.util.Date;
 
 public class Main {
 
+    public static String foo = "bar";                 //Could be used in all packages
+    private static String apple = "apple";            //Can be used only in this class
+
     public static void main(String[] args) {
-        // Packages
-        Date date = new Date();
-        java.sql.Date date1 = new java.sql.Date(1);
+        // Access Modifiers - Access Level
+        // classes, methods, attributes & constructors
+        // default, public, private, protected
 
     }
 
