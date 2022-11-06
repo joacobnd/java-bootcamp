@@ -4,8 +4,9 @@ package com.joaco;
 
 public class Main {
 
-    public static String foo = "bar";                 //Could be used in all packages
-    private static String apple = "apple";            //Can be used only in this class
+    public static String foo = "bar";                 // public: Could be used in all packages
+    private static String apple = "apple";            // private: Can be used only in this class
+    static String brand = "Amigoscode";               // default: Can be used only in this package
 
     public static void main(String[] args) {
         // Access Modifiers - Access Level
