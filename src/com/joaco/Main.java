@@ -1,18 +1,26 @@
 package com.joaco;
 
 
-import com.joaco.email.EmailValidator;
-
 public class Main {
 
+    /*
+        -Access Modifier
+        -Optional static
+        -Return type
+        -Name
+        -Optional Parameters
+        -Method Body
+        -Optional return value
+     */
 
+
+    private static int add(int n1, int n2) {
+        int result = n1 + n2;
+        return result;
+    }
     public static void main(String[] args) {
 
-        String email = "joacomdagmail.com";
-
-        EmailValidator.emailValidator(email);
-
-
+        System.out.println(add(25, 25));
 
     }
 
