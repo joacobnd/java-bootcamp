@@ -1,34 +1,22 @@
 package com.joaco;
 
 
+
 public class Main {
-
-    /*
-        -Access Modifier
-        -Optional static
-        -Return type
-        -Name
-        -Optional Parameters
-        -Method Body
-        -Optional return value
-     */
-
-
-    private static int add(int n1, int n2) {
-        int result = n1 + n2;
-        return result;
-    }
-
-    private static void printBrand(String brand) {
-        System.out.println(brand.toUpperCase());
-    }
-
     public static void main(String[] args) {
 
-        System.out.println(add(25, 25));
-        printBrand("Joaco");
+
+        rentalYield(1300, 250000);
+
+
 
     }
 
+    //solution
+    public static void rentalYield(double monthlyRent, double originalPropertyPrice) {
+        double anualRent = monthlyRent*12;
+        double rentalYield = anualRent / originalPropertyPrice * 100;
+        System.out.println(Math.round(rentalYield * 100.00) / 100.00);
+    }
 }
 
