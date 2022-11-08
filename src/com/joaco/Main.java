@@ -2,16 +2,15 @@ package com.joaco;
 
 
 public class Main {
-    private String brand = "Amigoscode";
-    // private var brand = "Amigoscode";               // var only can be used in local for local variables
     public static void main(String[] args) {
-        // TYpe Inference with var keyword
-        var name = "Jamila";
-        var names = new String[]{"Jamila", "Alex"};
-        var age = 22;
-        var isAdult = false;
-        var balance = 1_000_000.33;
-
+        // Break and Continue
+        var numbers = new int[]{1, 2, 3, 4, 5, 6};
+        for (int number : numbers) {
+            if (number == 3) {
+                break;
+            }
+            System.out.println(number);
+        }
     }
 
 
