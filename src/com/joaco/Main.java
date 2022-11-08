@@ -1,24 +1,22 @@
 package com.joaco;
 
-
-
 public class Main {
 
+    //Global Variable
+    private static final String BRAND = "Amigoscode";  //Podemos usar esta variable en cualquier lugar de esta clase
+    public static final double PI = 3.14;             //Podemos usar esta variable en cualquier clase y cualquier paquete
     public static void main(String[] args) {
-        // Type Casting - Convert one data type to another
-        // Implicit Type (Widening) Casting
-        int balance = 10_000;
-        double doubleBalance = balance;
-        System.out.println(balance);
-        System.out.println(doubleBalance);
+        //Local Variable
+        String country = "España";   //Solo se puede dentro del metodo main de esta clase
+        String BRAND = "Adidas";
+        System.out.println(BRAND);
+        System.out.println(Main.BRAND);
 
-        // Explicit Type (Narrowing) Casting
-        double doublePrice = 123.50;
-        int price = (int) doublePrice;  // Casteamos a int pero vamos a perder informacion
-        System.out.println(doublePrice);
-        System.out.println(price);
+    }
 
-
+    public static void foo() {
+//        System.out.println(country);        //No podemos usar la variable local country por que es local
+        System.out.println(BRAND);
     }
 
 
