@@ -2,22 +2,29 @@ package com.joaco;
 
 public class Main {
 
-    //Global Variable
-    private static final String BRAND = "Amigoscode";  //Podemos usar esta variable en cualquier lugar de esta clase
-    public static final double PI = 3.14;             //Podemos usar esta variable en cualquier clase y cualquier paquete
     public static void main(String[] args) {
-        //Local Variable
-        String country = "España";   //Solo se puede dentro del metodo main de esta clase
-        String BRAND = "Adidas";
-        System.out.println(BRAND);
-        System.out.println(Main.BRAND);
+        // Primitive Data Type -> Wrapper Class
+        // - byte -> Byte
+        // - short -> Short
+        // - int -> Integer
+        // - long -> Long
+        // - float -> Float
+        // - double -> Double
+        // - boolean -> Boolean
+        // - char -> Character
+        Integer age = 20;
+        String ageString = age.toString();
+        String ageStr = "55";
+        int newAge = Integer.parseInt(ageStr);
+        System.out.println(ageStr);
+        System.out.println(newAge);
+        System.out.println(age);
+        System.out.println(ageString);
+
 
     }
 
-    public static void foo() {
-//        System.out.println(country);        //No podemos usar la variable local country por que es local
-        System.out.println(BRAND);
-    }
+
 
 
 }
