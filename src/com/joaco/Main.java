@@ -4,25 +4,19 @@ package com.joaco;
 
 public class Main {
 
-    enum Gender {
-        MALE,
-        FEMALE
-    }
-
-    enum TShirtSize {
-        S,
-        M,
-        L,
-        XL
-    }
     public static void main(String[] args) {
-        // Enums
-        System.out.println(Gender.FEMALE);
-        System.out.println(Gender.MALE);
-        System.out.println(TShirtSize.S);
-        System.out.println(TShirtSize.M);
-        System.out.println(TShirtSize.L);
-        System.out.println(TShirtSize.XL);
+        // Type Casting - Convert one data type to another
+        // Implicit Type (Widening) Casting
+        int balance = 10_000;
+        double doubleBalance = balance;
+        System.out.println(balance);
+        System.out.println(doubleBalance);
+
+        // Explicit Type (Narrowing) Casting
+        double doublePrice = 123.50;
+        int price = (int) doublePrice;  // Casteamos a int pero vamos a perder informacion
+        System.out.println(doublePrice);
+        System.out.println(price);
 
 
     }
