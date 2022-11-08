@@ -1,21 +1,19 @@
 package com.joaco;
 
 
-
 public class Main {
+    private String brand = "Amigoscode";
+    // private var brand = "Amigoscode";               // var only can be used in local for local variables
     public static void main(String[] args) {
-
-
-
-
+        // TYpe Inference with var keyword
+        var name = "Jamila";
+        var names = new String[]{"Jamila", "Alex"};
+        var age = 22;
+        var isAdult = false;
+        var balance = 1_000_000.33;
 
     }
 
-    //solution
-    public static void rentalYield(double monthlyRent, double originalPropertyPrice) {
-        double anualRent = monthlyRent*12;
-        double rentalYield = anualRent / originalPropertyPrice * 100;
-        System.out.println(Math.round(rentalYield * 100.00) / 100.00);
-    }
+
 }
 
