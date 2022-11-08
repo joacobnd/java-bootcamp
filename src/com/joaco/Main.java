@@ -5,16 +5,16 @@ public class Main {
 
     public static void main(String[] args) {
         // Strings
-        String name = "Jamila";
-        System.out.println(name.toUpperCase());
-        System.out.println(name.toLowerCase());
-        System.out.println("   ".isBlank());
-        System.out.println("   ".isEmpty());
-        System.out.println(" Hellooo   ".trim());
-        System.out.println(name.startsWith("J"));
-        System.out.println(name.substring(3, 5));
-        System.out.println(name.replace("J", "Z"));
-        System.out.println(name.charAt(2));
+        String name1 = "Jamila";
+        String name2 = "Jamila";
+        String name3 = new String("Jamila");
+        System.out.println(name1==name2);      // NUNCA USSAR == para comparar STRINGS
+        System.out.println(name1==name3);
+        System.out.println(name1.equals(name2));
+        System.out.println(name1.equals(name3));
+
+
+
 
     }
 
