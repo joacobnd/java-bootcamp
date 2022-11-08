@@ -1,20 +1,29 @@
 package com.joaco;
 
 
-import java.awt.*;
 
 public class Main {
-    public static final String NAME = "Alex";
 
+    enum Gender {
+        MALE,
+        FEMALE
+    }
+
+    enum TShirtSize {
+        S,
+        M,
+        L,
+        XL
+    }
     public static void main(String[] args) {
-        // Final Keyword
-        final var name = "Alex";               // Usually we have to use FINAL when we want to create a constant
-        //name = "Jamila";                     // is no longer possible to change it when initially the var is "final"
-        final Point p = new Point();
-        p.x=10;
-        p.y=20;
-        System.out.println(p);
-        System.out.println(NAME);
+        // Enums
+        System.out.println(Gender.FEMALE);
+        System.out.println(Gender.MALE);
+        System.out.println(TShirtSize.S);
+        System.out.println(TShirtSize.M);
+        System.out.println(TShirtSize.L);
+        System.out.println(TShirtSize.XL);
+
 
     }
 
