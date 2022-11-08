@@ -1,12 +1,7 @@
 package com.joaco.exercises;
 
 
-import com.joaco.Main;
-
-import java.util.Arrays;
-import java.util.Objects;
-
-public class ExercisesMain {
+public class ExercisesApp {
 
     public static void main(String[] args) {
 //        // declare an empty integer array of length = 3
