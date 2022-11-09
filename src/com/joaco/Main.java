@@ -1,20 +1,24 @@
 package com.joaco;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.time.LocalTime;
 
 public class Main {
 
 
     public static void main(String[] args) {
         // Working With Dates
-        LocalDateTime now = LocalDateTime.now();
-        System.out.println(now);
-        System.out.println(now.getMonth());
-        System.out.println(now.getDayOfWeek());
-        System.out.println(now.getDayOfYear());
-        System.out.println(now.getHour());
-        System.out.println(now.getYear());
-        System.out.println(now.toString());
+        LocalDate localDate = LocalDate.now();
+        System.out.println(localDate);
+        System.out.println(localDate.getMonth());
+        System.out.println(localDate.getDayOfWeek());
+        System.out.println(localDate.getDayOfYear());
+        System.out.println(localDate.getYear());
+        System.out.println(localDate.toString());
+
+        LocalTime localTime = LocalTime.now();
+        System.out.println(localTime.getHour());
     }
 
 
