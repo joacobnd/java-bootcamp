@@ -1,6 +1,8 @@
 package com.joaco;
 
 
+import java.io.File;
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Main {
@@ -9,21 +11,13 @@ public class Main {
     public static void main(String[] args) {
         // Exceptions
         try {
-            int number = Integer.parseInt("1x");
-            System.out.println(number);
-
-            for (int i = 10; i >= 0; i--) {
-                System.out.println(10 / i);
+            File file = new File("src/foo.txt");
+            if (!file.exists()) {
+                file.createNewFile();
             }
-
-        } catch (NumberFormatException | ArithmeticException e) {
-            System.out.println(e.getMessage());
-            e.printStackTrace();  //Print the StackTrace (Red message error)
-        } catch (Exception e) {
-            //Catch all exceptions
+        } catch (IOException e) {
             System.out.println(e.getMessage());
         }
-
 
 
     }
