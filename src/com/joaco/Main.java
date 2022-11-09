@@ -8,14 +8,17 @@ public class Main {
 
     public static void main(String[] args) {
         // Working With Dates
-        System.out.println(LocalDateTime.now());
-        System.out.println(ZonedDateTime.now());
-        System.out.println(Instant.now());
+        // EXERCISE: Write a method that calculate age on any given date
 
-
+        System.out.println(ageCalculator(LocalDate.of(1992, 1, 22)));
 
     }
 
+    public static int ageCalculator(LocalDate date) {
+        int age = LocalDate.now().getYear() - date.getYear();
+        return age;
+
+    }
 
 
 
