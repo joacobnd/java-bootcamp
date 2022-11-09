@@ -1,24 +1,25 @@
 package com.joaco;
 
 
+import java.math.BigDecimal;
 import java.time.*;
 
 public class Main {
 
 
     public static void main(String[] args) {
-        // Working With Dates
-        // EXERCISE: Write a method that calculate age on any given date
+        //The Problem With double
+        double number1 = 0.02;
+        double number2 = 0.03;
+        double result = number2 - number1;
+        System.out.println(result);
 
-        System.out.println(ageCalculator(LocalDate.of(1992, 1, 22)));
-
+        BigDecimal number3 = new BigDecimal("0.02");
+        BigDecimal number4 = new BigDecimal("0.03");
+        BigDecimal subResult = number4.subtract(number3);
+        System.out.println(subResult);
     }
 
-    public static int ageCalculator(LocalDate date) {
-        int age = LocalDate.now().getYear() - date.getYear();
-        return age;
-
-    }
 
 
 
