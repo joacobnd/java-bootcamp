@@ -19,6 +19,9 @@ public class Main {
         } catch (NumberFormatException | ArithmeticException e) {
             System.out.println(e.getMessage());
             e.printStackTrace();  //Print the StackTrace (Red message error)
+        } catch (Exception e) {
+            //Catch all exceptions
+            System.out.println(e.getMessage());
         }
 
 
