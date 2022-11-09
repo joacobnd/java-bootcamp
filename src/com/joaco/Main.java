@@ -8,15 +8,19 @@ public class Main {
 
     public static void main(String[] args) {
         // Working With Dates
-        LocalDate date = LocalDate.of(1992, 1, 22);
+        LocalDateTime nowSpain = LocalDateTime.now(ZoneId.of("Europe/Madrid"));
+        LocalDateTime nowArg = LocalDateTime.now(ZoneId.of("America/Argentina/Buenos_Aires"));
 
-        LocalDateTime date2 = LocalDateTime.of(1992, 1, 22, 14, 55, 30);
+        System.out.println(nowSpain);
+        System.out.println(nowArg);
 
-        LocalTime date3 = LocalTime.of(22, 30);
+        ZoneId.getAvailableZoneIds();
 
-        System.out.println(date);
-        System.out.println(date3);
-        System.out.println(date2);
+        for (String zones : ZoneId.getAvailableZoneIds()) {
+            System.out.println(zones);
+        }
+
+
 
     }
 
