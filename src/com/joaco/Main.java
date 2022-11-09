@@ -1,25 +1,38 @@
 package com.joaco;
 
 
-import java.io.File;
-import java.io.IOException;
-import java.util.Scanner;
 
 public class Main {
 
 
     public static void main(String[] args) {
         // Exceptions
+
+        //La mejor forma es usar throws en los metodos y quien llame al metodo se encargue de manejar la exception como el quiera
         try {
-            File file = new File("src/foo.txt");
-            if (!file.exists()) {
-                file.createNewFile();
-            }
-        } catch (IOException e) {
-            System.out.println(e.getMessage());
+            anna();
+        } catch (Exception e) {
+            e.printStackTrace();
         }
 
 
+    }
+
+    static void anna() throws Exception {
+        jamila();
+    }
+    static void jamila() throws Exception {
+            john();
+    }
+
+    static void john() throws Exception{
+            divide(10, 0);
+    }
+    public static double divide(int a, int b) throws Exception{
+        if (b == 0) {
+            throw new Exception("Cannot divide by 0");
+        }
+        return a / b;
     }
 
 
