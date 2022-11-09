@@ -1,19 +1,20 @@
 package com.joaco;
 
+import java.time.LocalDateTime;
+
 public class Main {
 
 
     public static void main(String[] args) {
-        // Strings
-
-        String number = String.valueOf(1);
-        System.out.println(number);
-        String format = String.format("Number %s", number);
-        System.out.println(format);
-        String[] names = {"Jamila", "Alex", "Joaquin"};
-        String list = String.join(", ", names);     //Convertir un Array en String
-        System.out.println(list);
-
+        // Working With Dates
+        LocalDateTime now = LocalDateTime.now();
+        System.out.println(now);
+        System.out.println(now.getMonth());
+        System.out.println(now.getDayOfWeek());
+        System.out.println(now.getDayOfYear());
+        System.out.println(now.getHour());
+        System.out.println(now.getYear());
+        System.out.println(now.toString());
     }
 
 
