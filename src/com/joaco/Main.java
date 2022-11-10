@@ -4,16 +4,16 @@ public class Main {
     public static void main(String[] args) {
         //Classes
 
-        Cat cat = new Cat();
-        cat.setName("Felix");
+        Cat cat = new Cat("Felix", 5);
         System.out.println(cat.getName());
+        System.out.println(cat.getAge());
         cat.meow();
 
         System.out.println("");
 
-        Cat cat2 = new Cat();
-        cat2.setName("Rose");
+        Cat cat2 = new Cat("Rose", 7);
         System.out.println(cat2.getName());
+        System.out.println(cat2.getAge());
         cat2.meow();
     }
 
