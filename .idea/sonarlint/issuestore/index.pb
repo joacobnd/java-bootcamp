@@ -11,3 +11,5 @@ W
 'src/com/joaco/exercises/TShirtSize.java,0\e\0ec4d768a6b7a38004e25c004e7d48dc557ae602
 o
 ?src/com/joaco/exercises/ArraysConditionalsMethodsExercises.java,a\b\ab04ba52176874e4267b428572128128c141669a
+]
+-src/com/joaco/exercises/ScannerExercises.java,a\9\a9b60254a143cfed60c87ae0f37d83e65f61135b
