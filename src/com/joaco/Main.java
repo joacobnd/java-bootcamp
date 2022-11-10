@@ -1,25 +1,23 @@
 package com.joaco;
 
-
-import java.io.*;
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
         //Classes
+
         Cat cat = new Cat();
-        cat.name = "Felix";
+        cat.setName("Felix");
+        System.out.println(cat.getName());
         cat.meow();
 
+        System.out.println("");
 
+        Cat cat2 = new Cat();
+        cat2.setName("Rose");
+        System.out.println(cat2.getName());
+        cat2.meow();
     }
 
-    static class Cat {
-        String name;
-        void meow() {
-            System.out.println(name + ": meow..");
-        }
-    }
+
 
 }
 
