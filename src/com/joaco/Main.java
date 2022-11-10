@@ -9,7 +9,7 @@ public class Main {
         //Working with files
 
         File file = createFile("src/foo.txt");
-       // writeFile(file, true);
+        writeFile(file, true);
 
         try {
             Scanner scanner = new Scanner(file);
@@ -22,15 +22,25 @@ public class Main {
     }
 
     private static void writeFile(File file, boolean append) {
-        try {
-            FileWriter fileWriter = new FileWriter(file, append);  //Si no queres que sobreescriba constantemente agregamos true
-            PrintWriter writer = new PrintWriter(fileWriter);
-            writer.println("Amigoscode");
-            writer.flush();
-            writer.close();
+        try (
+                FileWriter fileWriter = new FileWriter(file, append);
+                PrintWriter writer = new PrintWriter(fileWriter);
+        ) {
+            writer.println("Bianca");
         } catch (IOException e) {
             System.out.println(e.getMessage());
         }
+
+
+//        try {
+//            FileWriter fileWriter = new FileWriter(file, append);  //Si no queres que sobreescriba constantemente agregamos true
+//            PrintWriter writer = new PrintWriter(fileWriter);
+//            writer.println("Amigoscode");
+//            writer.flush();
+//            writer.close();
+//        } catch (IOException e) {
+//            System.out.println(e.getMessage());
+//        }
     }
 
     private static File createFile(String path) {
