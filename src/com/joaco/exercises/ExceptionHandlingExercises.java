@@ -11,7 +11,7 @@ public class ExceptionHandlingExercises {
 
     public static void convert(String[] str) {
         int[] listNumbers = new int[str.length];
-        String[] notNumbers = new String[str.length];
+        String[] notNumbers = new String[str.length ];
         int count = 0;
 
         for (int i = 0; i < str.length; i++) {

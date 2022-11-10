@@ -1,32 +1,24 @@
 package com.joaco;
 
 
+import java.io.File;
+import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) {
-        // Exceptions
+        //Working with files
+        File file = new File("src/foo.txt");
+        if (!file.exists()) {
+            try {
+                file.createNewFile();
 
-        try {
-            System.out.println(divide(10, 0));
-        } catch (MyCheckedException e) {
-            e.printStackTrace();
+            } catch (IOException e) {
+                System.out.println(e.getMessage());
+            }
+            System.out.println("File created successful!");
         }
-
     }
 
-    public static int divide(int a, int b) throws MyCheckedException{
-        if (b == 0) {
-            throw new MyCheckedException("Cannot divide by 0");
-        }
-        return a / b;
-    }
-
-//    public static int divide(int a, int b){
-//        if (b == 0) {
-//            throw new MyUncheckedException("Cannot divide by 0");
-//        }
-//        return a / b;
-//    }
 
 }
 
