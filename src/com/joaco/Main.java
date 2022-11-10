@@ -18,12 +18,19 @@ public class Main {
 
         System.out.println("");
 
-        Cat cat3 = new Cat();
+        Cat cat3 = new Cat("Sima");
         cat3.setName("Sima");
         cat3.setAge(2);
         System.out.println(cat3.getName());
         System.out.println(cat3.getAge());
         cat3.meow();
+
+        System.out.println();
+
+        Cat cat4 = new Cat("Luna");
+        System.out.println(cat4.getName());
+        System.out.println(cat4.getAge());
+        cat4.meow();
     }
 
 
