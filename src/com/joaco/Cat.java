@@ -17,6 +17,10 @@ public class Cat {
         this.age = age;
     }
 
+    public Cat() {
+
+    }
+
     public String getName() {
         return name;
     }

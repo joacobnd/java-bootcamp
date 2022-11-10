@@ -15,6 +15,15 @@ public class Main {
         System.out.println(cat2.getName());
         System.out.println(cat2.getAge());
         cat2.meow();
+
+        System.out.println("");
+
+        Cat cat3 = new Cat();
+        cat3.setName("Sima");
+        cat3.setAge(2);
+        System.out.println(cat3.getName());
+        System.out.println(cat3.getAge());
+        cat3.meow();
     }
 
 
