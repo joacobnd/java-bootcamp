@@ -1,21 +1,40 @@
 package com.joaco;
 
 
-import java.io.File;
-import java.io.IOException;
+import java.io.*;
 
 public class Main {
     public static void main(String[] args) {
         //Working with files
-        File file = new File("src/foo.txt");
-        if (!file.exists()) {
-            try {
-                file.createNewFile();
 
-            } catch (IOException e) {
-                System.out.println(e.getMessage());
+        File file = createFile("src/foo.txt");
+        writeFile(file, true);
+
+    }
+
+    private static void writeFile(File file, boolean append) {
+        try {
+            FileWriter fileWriter = new FileWriter(file, append);  //Si no queres que sobreescriba constantemente agregamos true
+            PrintWriter writer = new PrintWriter(fileWriter);
+            writer.println("Amigoscode");
+            writer.flush();
+            writer.close();
+        } catch (IOException e) {
+            System.out.println(e.getMessage());
+        }
+    }
+
+    private static File createFile(String path) {
+
+        try {
+            File file = new File(path);
+            if (!file.exists()) {
+                file.createNewFile();
             }
-            System.out.println("File created successful!");
+            return file;
+        } catch (IOException e) {
+            System.out.println(e.getMessage());
+            throw new IllegalStateException(e);
         }
     }
 
