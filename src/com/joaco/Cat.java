@@ -3,11 +3,14 @@ package com.joaco;
 public class Cat {
     private String name;
     private int age;
+    private String color;
 
 
-    public Cat(String name, int age) {
+
+    public Cat(String name, int age, String color) {
         this.name = name;
         this.age = age;
+        this.color = color;
     }
 
     public Cat(String name) {
@@ -17,6 +20,14 @@ public class Cat {
 
     public Cat() {
 
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
     }
 
 
@@ -43,4 +54,12 @@ public class Cat {
         System.out.println(name + ": meow..");
     }
 
+    @Override
+    public String toString() {
+        return "Cat{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", color='" + color + '\'' +
+                '}';
+    }
 }
