@@ -13,6 +13,11 @@ public class Cat {
         this.color = color;
     }
 
+    public Cat(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
     public Cat(String name) {
         this.name = name;
         this.age = 0;
