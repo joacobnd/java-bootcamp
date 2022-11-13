@@ -13,6 +13,11 @@ public class Main {
         System.out.println(cat == cat2);   //bad
         System.out.println(cat.equals(cat2));  //hay que usar equals para objects
 
+        Cat[] cats = {cat, cat2};
+
+        Person alex = new Person("Alex", "Montana", Gender.MALE, cats);
+        System.out.println(alex);
+
 
 
 
