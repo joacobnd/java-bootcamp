@@ -6,21 +6,15 @@ import java.util.Objects;
 public class Person {
 
     private String firstName;
-    private String lastName;
-    private Gender gender;
-    private Cat[] cats;
+    private int age;
+    private Address address;
+    private Car[] cars;
 
-    public Person(String firstName, String lastName, Gender gender, Cat[] cats) {
+    public Person(String firstName, int age, Address address, Car[] cars) {
         this.firstName = firstName;
-        this.lastName = lastName;
-        this.gender = gender;
-        this.cats = cats;
-    }
-
-    public Person(String firstName, String lastName, Gender gender) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.gender = gender;
+        this.age = age;
+        this.address = address;
+        this.cars = cars;
     }
 
     public String getFirstName() {
@@ -31,38 +25,28 @@ public class Person {
         this.firstName = firstName;
     }
 
-    public String getLastName() {
-        return lastName;
+    public int getAge() {
+        return age;
     }
 
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
+    public void setAge(int age) {
+        this.age = age;
     }
 
-    public Gender getGender() {
-        return gender;
+    public Address getAddress() {
+        return address;
     }
 
-    public void setGender(Gender gender) {
-        this.gender = gender;
+    public void setAddress(Address address) {
+        this.address = address;
     }
 
-    public Cat[] getCats() {
-        return cats;
+    public Car[] getCars() {
+        return cars;
     }
 
-    public void setCats(Cat[] cats) {
-        this.cats = cats;
-    }
-
-    @Override
-    public String toString() {
-        return "Person{" +
-                "firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", gender=" + gender +
-                ", cats=" + Arrays.toString(cats) +
-                '}';
+    public void setCars(Car[] cars) {
+        this.cars = cars;
     }
 
     @Override
@@ -70,13 +54,23 @@ public class Person {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Person person = (Person) o;
-        return Objects.equals(firstName, person.firstName) && Objects.equals(lastName, person.lastName) && gender == person.gender && Arrays.equals(cats, person.cats);
+        return age == person.age && Objects.equals(firstName, person.firstName) && Objects.equals(address, person.address) && Arrays.equals(cars, person.cars);
     }
 
     @Override
     public int hashCode() {
-        int result = Objects.hash(firstName, lastName, gender);
-        result = 31 * result + Arrays.hashCode(cats);
+        int result = Objects.hash(firstName, age, address);
+        result = 31 * result + Arrays.hashCode(cars);
         return result;
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "firstName='" + firstName + '\'' +
+                ", age=" + age +
+                ", address=" + address +
+                ", cars=" + Arrays.toString(cars) +
+                '}';
     }
 }
