@@ -3,7 +3,7 @@ package com.joaco.car;
 public class CarDAO {
     private static Car[] cars;
     private static int nextAvailableSlot = 0;
-    private static final int CAPACITY = 100;
+    private static final int CAPACITY = 5;
 
     static {
         cars = new Car[CAPACITY];
@@ -16,5 +16,9 @@ public class CarDAO {
         cars[nextAvailableSlot] = car;
         ++nextAvailableSlot;
 
+    }
+
+    public Car[] selectAllCars() {
+        return cars;
     }
 }
