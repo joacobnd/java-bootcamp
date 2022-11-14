@@ -5,9 +5,13 @@ import static java.lang.Math.*;         // STATIC IMPORT
 public class Main {
     public static void main(String[] args) {
 
+        // Packages
+        // Domain / Model   -- Don't contain business logic inside
+        // Service Classes -> business logic
+        // DAO Classes
+        // Utility Classes
+        // Configuration
 
-        System.out.println(max(10, 20));
-        System.out.println(min(10, 2));
 
 
     }
