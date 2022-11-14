@@ -5,16 +5,33 @@ import java.util.Objects;
 
 public class Person {
 
+    public static int count;
+
+    static {
+        System.out.println("Start: static initialization.");
+        System.out.println("End: static initialization.");
+        count=0;                       //static block initialization block
+    }
     private String firstName;
     private int age;
     private Address address;
     private Car[] cars;
+
+
 
     public Person(String firstName, int age, Address address, Car[] cars) {
         this.firstName = firstName;
         this.age = age;
         this.address = address;
         this.cars = cars;
+    }
+
+    public Person(String firstName, int age) {
+        this.firstName = firstName;
+        this.age = age;
+    }
+
+    public Person() {
     }
 
     public String getFirstName() {
