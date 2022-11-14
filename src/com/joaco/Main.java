@@ -8,7 +8,7 @@ public class Main {
         // Packages
         // Domain / Model   -- Don't contain business logic inside
         // Service Classes -> business logic
-        // DAO Classes
+        // Data Access Object Classes
         // Utility Classes
         // Configuration
 
