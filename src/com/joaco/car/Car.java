@@ -1,24 +1,23 @@
-package com.joaco;
+package com.joaco.car;
 
-import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.Objects;
 
 public class Car {
 
-    private CarBrand brand;
+    private String brand;
     private BigDecimal price;
 
-    public Car(CarBrand brand, BigDecimal price) {
+    public Car(String brand, BigDecimal price) {
         this.brand = brand;
         this.price = price;
     }
 
-    public CarBrand getBrand() {
+    public String getBrand() {
         return brand;
     }
 
-    public void setBrand(CarBrand brand) {
+    public void setBrand(String brand) {
         this.brand = brand;
     }
 

@@ -1,4 +1,7 @@
-package com.joaco;
+package com.joaco.person;
+
+
+import com.joaco.car.Car;
 
 import java.util.Arrays;
 import java.util.Objects;
@@ -14,15 +17,13 @@ public class Person {
     }
     private String firstName;
     private int age;
-    private Address address;
     private Car[] cars;
 
 
 
-    public Person(String firstName, int age, Address address, Car[] cars) {
+    public Person(String firstName, int age, Car[] cars) {
         this.firstName = firstName;
         this.age = age;
-        this.address = address;
         this.cars = cars;
     }
 
@@ -50,13 +51,6 @@ public class Person {
         this.age = age;
     }
 
-    public Address getAddress() {
-        return address;
-    }
-
-    public void setAddress(Address address) {
-        this.address = address;
-    }
 
     public Car[] getCars() {
         return cars;
@@ -71,12 +65,12 @@ public class Person {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Person person = (Person) o;
-        return age == person.age && Objects.equals(firstName, person.firstName) && Objects.equals(address, person.address) && Arrays.equals(cars, person.cars);
+        return age == person.age && Objects.equals(firstName, person.firstName) && Arrays.equals(cars, person.cars);
     }
 
     @Override
     public int hashCode() {
-        int result = Objects.hash(firstName, age, address);
+        int result = Objects.hash(firstName, age);
         result = 31 * result + Arrays.hashCode(cars);
         return result;
     }
@@ -86,7 +80,6 @@ public class Person {
         return "Person{" +
                 "firstName='" + firstName + '\'' +
                 ", age=" + age +
-                ", address=" + address +
                 ", cars=" + Arrays.toString(cars) +
                 '}';
     }

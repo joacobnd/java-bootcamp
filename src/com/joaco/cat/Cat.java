@@ -1,4 +1,4 @@
-package com.joaco;
+package com.joaco.cat;
 
 import java.util.Objects;
 
