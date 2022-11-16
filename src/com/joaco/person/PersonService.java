@@ -2,7 +2,6 @@ package com.joaco.person;
 
 import com.joaco.utils.StringUtils;
 
-import static com.joaco.utils.StringUtils.isEmpty;
 
 public class PersonService {
 

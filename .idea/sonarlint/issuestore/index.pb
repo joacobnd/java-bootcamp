@@ -13,10 +13,6 @@ o
 ?src/com/joaco/exercises/ArraysConditionalsMethodsExercises.java,a\b\ab04ba52176874e4267b428572128128c141669a
 ]
 -src/com/joaco/exercises/ScannerExercises.java,a\9\a9b60254a143cfed60c87ae0f37d83e65f61135b
-U
-%src/com/joaco/MyCheckedException.java,8\3\8323ec8d12e3d67fb2bd429207cb093c03ca6322
-W
-'src/com/joaco/MyUncheckedException.java,1\2\1294ce955fe3852c72b9d7baa942b22a10b4d78d
 g
 7src/com/joaco/exercises/ExceptionHandlingExercises.java,4\c\4c2c5c82ff882fa31472c8f0799fe0a3e5509d32
 ;
@@ -25,9 +21,27 @@ g
 src/data.csv,3\3\33b2076ac746dc213cf1283d23cea56a2f181a62
 Z
 *src/com/joaco/exercises/FilesExercise.java,f\6\f6886e5d5e9db76d82f9240974ea26dab2839c95
-J
-src/com/joaco/Address.java,4\3\43f959e3f03eaed4364cb6db5f9127b6f937fda4
-K
-src/com/joaco/CarBrand.java,0\b\0b25b21796c35d7fe1c43528388580ef405f23f9
 a
 1src/com/joaco/exercises/classesandobjets/Car.java,d\c\dccdea8abf89cd8fef4d8bd1b12427382bdde7fe
+k
+;src/com/joaco/exercises/classesandobjets/CarDealership.java,1\f\1f417ec7c13de0b332bd48927c2923156e869a48
+h
+8src/com/joaco/exercises/classesandobjets/EngineType.java,2\7\270a158cee52efb45a7551253ed8cfb6c28fd13e
+b
+2src/com/joaco/exercises/classesandobjets/Main.java,b\1\b1a650f02bf1fc556f87de49a9cc93be0dac0763
+J
+src/com/joaco/cat/Cat.java,e\a\ea62bf1bc392430572405fe8be855f625cb21dff
+P
+ src/com/joaco/person/Gender.java,c\f\cf029e1e1b02e318b6543cec54667aac750339fe
+P
+ src/com/joaco/person/Person.java,4\e\4e63f5d28fba5a1b10514df14b2824b79600ad5b
+P
+ src/com/joaco/garage/Garage.java,a\d\adc41261a751d764a402393583b04c6d07ea66f2
+W
+'src/com/joaco/garage/GarageService.java,3\8\3888f34e849624888d9c28e47abbea28b4200c41
+J
+src/com/joaco/car/Car.java,c\0\c072e9c86a6853585d8b5f0fff98da37a77549cb
+M
+src/com/joaco/car/CarDAO.java,8\8\88583dfee227011888961e535a5834325601b51e
+Q
+!src/com/joaco/car/CarService.java,f\f\ff8dea01d3e33bbbe91d0afe3c73c4cfc025b4f4
