@@ -6,9 +6,8 @@ import java.util.Objects;
 abstract public class Animal {
     private String name;
 
-    public void makeSound() {
-        System.out.println("Making sound..");
-    }
+    //when we call a method with abstract we have implements this method in all subclasses
+    public abstract void makeSound();
 
     public Animal(String name) {
         this.name = name;
