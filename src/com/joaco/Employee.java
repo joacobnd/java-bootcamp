@@ -4,10 +4,10 @@ import java.util.Objects;
 
 public class Employee {
 
-    private String name;
-    private int age;
-    private String adress;
-    private String experience;
+    protected String name;
+    protected int age;
+    protected String adress;
+    protected String experience;
 
     public Employee(String name,
                     int age,
