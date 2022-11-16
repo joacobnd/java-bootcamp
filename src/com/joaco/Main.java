@@ -8,12 +8,13 @@ public class Main {
         String[] languages = {"Java", "Go", "C++"};
         Programmer java = new Programmer("Jamal", 21, "London", "Full Stack", languages);
 
+        java.sayHi();
 
-        java.writeSomeCode();
-        System.out.println(java.getName());
-        System.out.println(java.getAge());
-        System.out.println(java.getAdress());
-        System.out.println(java.getExperience());
+//        java.writeSomeCode();
+//        System.out.println(java.getName());
+//        System.out.println(java.getAge());
+//        System.out.println(java.getAdress());
+//        System.out.println(java.getExperience());
 
     }
 

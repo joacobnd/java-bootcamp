@@ -19,6 +19,10 @@ public class Employee {
         this.experience = experience;
     }
 
+    public void sayHi() {
+        System.out.println("Hello my name is " + this.name);
+    }
+
     public String getName() {
         return name;
     }
