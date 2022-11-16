@@ -1,17 +1,16 @@
 package com.joaco;
 
 
-import java.math.BigDecimal;
+import java.io.FileNotFoundException;
 
 public class Main {
     public static void main(String[] args) {
 
-        Animal dog = new Dog("Booby");
-        Animal cat = new Cat("Sima");
-
-        dog.makeSound();
-        cat.makeSound();
-
+        try {
+            new EmailExtractorReport().prepareAndSendReport("src/data.txt");
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        }
 
     }
 
