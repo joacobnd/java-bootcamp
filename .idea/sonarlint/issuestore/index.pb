@@ -41,10 +41,6 @@ W
 'src/com/joaco/garage/GarageService.java,3\8\3888f34e849624888d9c28e47abbea28b4200c41
 J
 src/com/joaco/car/Car.java,c\0\c072e9c86a6853585d8b5f0fff98da37a77549cb
-M
-src/com/joaco/car/CarDAO.java,8\8\88583dfee227011888961e535a5834325601b51e
-Q
-!src/com/joaco/car/CarService.java,f\f\ff8dea01d3e33bbbe91d0afe3c73c4cfc025b4f4
 W
 'src/com/joaco/person/PersonService.java,8\7\87de41b4a8450bb7854078921d60d3ca577b34f8
 <

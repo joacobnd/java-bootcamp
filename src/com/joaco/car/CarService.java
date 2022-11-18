@@ -3,6 +3,11 @@ package com.joaco.car;
 public class CarService {
 
     private CarDAO carDAO = new CarDAO();
+
+    public CarService(CarDAO carDAO) {
+        this.carDAO = carDAO;               // Nunca hacer esto
+    }
+
     public int registerNewCar(Car car) {
         // check if car is not null
         // check if regNumber is valid
