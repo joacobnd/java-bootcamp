@@ -13,6 +13,8 @@ public class Car implements Vehicle{
 
     @Override
     public void move(int amount) {
+        System.out.println("Start engine");
+        System.out.println("accelerate");
         this.currentSpeed += amount;
     }
     @Override
