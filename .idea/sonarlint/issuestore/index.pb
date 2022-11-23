@@ -67,3 +67,7 @@ V
 &src/com/joaco/solid/ShapesPrinter.java,c\d\cd374119339a7635fe55a8a899d3c35c95f008e3
 O
 src/com/joaco/solid/Square.java,c\f\cf795594e952e7c6bdc07b691809b42dd07dac4e
+L
+src/com/joaco/TheArrays.java,c\6\c65e92e683b2286e6fe697a19d9af610e4d99b31
+M
+src/com/joaco/solid/Main.java,4\5\452f0be2d3683519a1514427abbac99b8b52b8b3
