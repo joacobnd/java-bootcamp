@@ -49,3 +49,21 @@ M
 src/com/joaco/car/CarDAO.java,8\8\88583dfee227011888961e535a5834325601b51e
 U
 %src/com/joaco/email/EmailService.java,4\6\462f7cf8dd00899480d7c184e18ca99ae5d617fa
+W
+'src/com/joaco/solid/AreaCalculator.java,b\e\be4a8817bef28d4ca497795c21c3c7f932701527
+Q
+!src/com/joaco/car/CarService.java,f\f\ff8dea01d3e33bbbe91d0afe3c73c4cfc025b4f4
+O
+src/com/joaco/solid/Circle.java,1\2\121b328b3638b31149b8e182e7103bef8245496d
+M
+src/com/joaco/solid/Cube.java,a\6\a623dcd3b11b32916f3126d86d21c844ef5503e4
+X
+(src/com/joaco/solid/IAreaCalculator.java,c\7\c70989217b1a104bf4510d19132fb6423fdd1dba
+G
+src/com/joaco/Main.java,c\9\c931b3c6ec621c9d0efee5ea5f9643cb6630ce74
+N
+src/com/joaco/solid/Shape.java,5\d\5d9d7f8fbf41c3383f395308f607450283b69377
+V
+&src/com/joaco/solid/ShapesPrinter.java,c\d\cd374119339a7635fe55a8a899d3c35c95f008e3
+O
+src/com/joaco/solid/Square.java,c\f\cf795594e952e7c6bdc07b691809b42dd07dac4e
