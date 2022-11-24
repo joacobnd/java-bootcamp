@@ -9,7 +9,12 @@ public class BoundedTypeParameter {
 
     }
 
-    public static <T extends  Comparable<T>> int countGreaterThan(T[] numbers, T number) {
+    interface A {}
+
+    interface B {}
+
+    // Solo podemos extender UNA clase y debe ir PRIMERO luego las interfaces
+    public static <T extends String & A & B & Comparable<T>> int countGreaterThan(T[] numbers, T number) {
         int count = 0;
         for (T n : numbers) {
             if (n.compareTo(number) > 0) {
