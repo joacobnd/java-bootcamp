@@ -63,3 +63,17 @@ M
 src/com/joaco/solid/Main.java,4\5\452f0be2d3683519a1514427abbac99b8b52b8b3
 V
 &src/com/joaco/WorkingWith2DArrays.java,2\4\24bcf63dcc60dd22c820b71e40efc1f8caebea7b
+R
+"src/com/joaco/WorkingWithSets.java,1\e\1ed975763a4df105181bdafe392bcaded4561816
+R
+"src/com/joaco/WorkingWithMaps.java,b\6\b60333c34d55c55f5c31a00164e8490526e79d15
+Y
+)src/com/joaco/exercises/ExercisesApp.java,7\c\7c65e5559eaebd4cff84d2e6e52bd36195110b22
+g
+7src/com/joaco/exercises/ExceptionHandlingExercises.java,4\c\4c2c5c82ff882fa31472c8f0799fe0a3e5509d32
+[
++src/com/joaco/exercises/EnumsExercises.java,9\a\9aa162a63a3521d31df05fe5621099f2b351c33c
+o
+?src/com/joaco/exercises/ArraysConditionalsMethodsExercises.java,a\b\ab04ba52176874e4267b428572128128c141669a
+e
+5src/com/joaco/exercises/datastructures/Exercise1.java,c\2\c2e15d04ef947975ad1a9ebd423d511ac323cfd3

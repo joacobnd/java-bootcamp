@@ -1,18 +1,19 @@
 package com.joaco;
 
 
-import java.awt.*;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
 
 public class Main {
     public static void main(String[] args) {
+        Box box = new Box<>();
+        box.set(new Phone(""));
+        System.out.println(box.get());
+
+        Box box2 = new Box<>();
+        box.set(new Letter("Joaquin"));
+        System.out.println(box.get());
+
+
     }
 
-
 }
-
-
 
