@@ -77,13 +77,5 @@ o
 ?src/com/joaco/exercises/ArraysConditionalsMethodsExercises.java,a\b\ab04ba52176874e4267b428572128128c141669a
 e
 5src/com/joaco/exercises/datastructures/Exercise1.java,c\2\c2e15d04ef947975ad1a9ebd423d511ac323cfd3
-I
-src/com/joaco/Letter.java,2\5\25615877a5b7abfc9376b298ae1cf36f37dca54c
-H
-src/com/joaco/Phone.java,4\f\4f48f911331768270a6acd151443a34143b79dc4
-F
-src/com/joaco/Box.java,a\c\ace2aed9fa69e42e9aa909ec34abfd2bebada6ce
 T
 $src/com/joaco/GenericAndMethods.java,0\4\049361d684985a3e502196a1606bc29007e1ab35
-G
-src/com/joaco/Main.java,c\9\c931b3c6ec621c9d0efee5ea5f9643cb6630ce74

@@ -1,4 +1,4 @@
-package com.joaco;
+package com.joaco.generics;
 
 public class BoundedTypeParameter {
     public static void main(String[] args) {

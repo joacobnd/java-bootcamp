@@ -1,4 +1,4 @@
-package com.joaco;
+package com.joaco.generics;
 
 import java.util.Arrays;
 import java.util.List;

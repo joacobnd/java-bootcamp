@@ -1,4 +1,4 @@
-package com.joaco;
+package com.joaco.arrays;
 
 import javax.sound.midi.Soundbank;
 import java.util.HashMap;

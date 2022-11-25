@@ -1,4 +1,4 @@
-package com.joaco;
+package com.joaco.arrays;
 
 import java.util.LinkedList;
 import java.util.ListIterator;

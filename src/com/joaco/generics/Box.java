@@ -1,4 +1,4 @@
-package com.joaco;
+package com.joaco.generics;
 
 public class Box<T> {
 
