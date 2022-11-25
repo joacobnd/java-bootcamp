@@ -19,6 +19,7 @@ public class UpperBoundedWildcards {
     }
 
     //al especificar que extiende de Numbers podemos utilizar cualquier clase hija que tenga
+    // Wildcards solo pueden usar un bound
     static void printNumbers(List<? extends Number> list) {
         list.forEach(e -> {
             System.out.println(e.getClass().getName());

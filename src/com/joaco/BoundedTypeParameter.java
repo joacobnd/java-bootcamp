@@ -14,6 +14,7 @@ public class BoundedTypeParameter {
     interface B {}
 
     // Solo podemos extender UNA clase y debe ir PRIMERO luego las interfaces
+    // No podemos usar Lowers and Uppers
     public static <T extends Comparable<T>> int countGreaterThan(T[] numbers, T number) {
         int count = 0;
         for (T n : numbers) {
