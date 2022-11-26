@@ -105,5 +105,3 @@ c
 3src/main/java/com/joaco/arrays/WorkingWithSets.java,8\4\84a0affae8c570ab0e3c8826135bc2d901086597
 e
 5src/main/java/com/joaco/arrays/WorkingWithStacks.java,a\1\a18a702c6cdbec4fd99df60a0a3d7524dbe25292
-_
-/src/main/java/com/joaco/WorkingWithStreams.java,d\e\de853f4779e0a536ce2b477e9f5e194a51b2e211

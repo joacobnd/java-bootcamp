@@ -1,8 +1,0 @@
-
-a
-java:S1192"FDefine a constant instead of duplicating this literal "Laura" 4 times.(ÍÙÌ°ùÿÿÿÿ
-S	java:S106""9Replace this use of System.out or System.err by a logger.(ÙÌÕ»øÿÿÿÿ
-S	java:S106#"9Replace this use of System.out or System.err by a logger.(üé¨Àùÿÿÿÿ
-S	java:S106@"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
-M	java:S106A"9Replace this use of System.out or System.err by a logger.(“ç—
-S	java:S106B"9Replace this use of System.out or System.err by a logger.(­¸¤Êúÿÿÿÿ
