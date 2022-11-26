@@ -1,15 +1,18 @@
 package com.joaco.person;
 
-import com.joaco.utils.StringUtils;
 
+import java.util.List;
 
+//Business Layer
 public class PersonService {
+    private PersonDAO personDAO;
 
-    public int addPerson(Person person) {
-        if (StringUtils.isEmpty(person.getFirstName())) {
-            throw new IllegalArgumentException("First name cannot be null or empty");
-        }
-        // store person to db
-        return 1;
+    public PersonService(PersonDAO personDAO) {
+        this.personDAO = personDAO;
     }
+
+    public List<Person> getPeopple() {
+        return personDAO.getPeopple();
+    }
+
 }

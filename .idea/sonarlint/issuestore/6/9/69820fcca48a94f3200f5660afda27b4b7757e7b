@@ -1,0 +1,11 @@
+
+2
+java:S1643#"Use a StringBuilder instead.(¥‹Å€
+[
+java:S22591"EA "NullPointerException" could be thrown; "orElse()" can return null.(ëÒ÷‹
+Q	java:S125"<This block of commented-out lines of code should be removed.(Ÿþ’ß
+Q	java:S125"<This block of commented-out lines of code should be removed.(ó‘±È
+N	java:S106%"9Replace this use of System.out or System.err by a logger.(¾‘‚í
+V
+java:S18581"@"orElse" returns a string, there's no need to call "toString()".(ëÒ÷‹
+N	java:S1062"9Replace this use of System.out or System.err by a logger.(ãØ¢ä

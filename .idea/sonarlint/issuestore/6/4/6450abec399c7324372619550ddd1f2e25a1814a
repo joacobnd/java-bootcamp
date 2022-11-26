@@ -1,0 +1,25 @@
+
+S	java:S106
+"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.( ÖÀ¨
+S	java:S106"9Replace this use of System.out or System.err by a logger.(­İíÅıÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(®ÿ¹
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Òê¹
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ŒÃı¨
+N	java:S106"9Replace this use of System.out or System.err by a logger.(³‘»˜
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ƒ„‰Ê
+N	java:S106%"9Replace this use of System.out or System.err by a logger.(ƒ‡íÛ
+W
+java:S1126."AReplace this if-then-else statement by a single return statement.(³ºÄ”
+N	java:S106;"9Replace this use of System.out or System.err by a logger.(§ÃŞö
+S	java:S106="9Replace this use of System.out or System.err by a logger.(ô›¿Öşÿÿÿÿ
+S	java:S106>"9Replace this use of System.out or System.err by a logger.(ÚĞ”ğúÿÿÿÿ
+N	java:S106H"9Replace this use of System.out or System.err by a logger.(ŞÇ„
+N	java:S106P"9Replace this use of System.out or System.err by a logger.(¼æ¿
+N	java:S106\"9Replace this use of System.out or System.err by a logger.(Ãîß
+V	java:S125["<This block of commented-out lines of code should be removed.(äòûÿÿÿÿ
+H
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ
+F
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ

@@ -1,0 +1,26 @@
+
+]
+java:S1192"GDefine a constant instead of duplicating this literal "Jamila" 4 times.(µ¥Ş‘
+N	java:S106"9Replace this use of System.out or System.err by a logger.(æò‰é
+N	java:S106"9Replace this use of System.out or System.err by a logger.(æò‰é
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ù×Ô
+_
+java:S4143"DVerify this is the key that was intended; it was already set before.(í·å†øÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(µˆœÑ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(÷ ì²
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ŠñÍÈıÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(æÒÙµúÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(å‚É¶úÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(çÁ×ú
+V
+java:S1612""@Replace this lambda with method reference 'System.out::println'.(µÃË
+N	java:S106""9Replace this use of System.out or System.err by a logger.(µÃË
+B
+java:S1602#",Remove useless curly braces around statement(õ™îú
+N	java:S106$"9Replace this use of System.out or System.err by a logger.(ÓşŠ©
+N	java:S106'"9Replace this use of System.out or System.err by a logger.(é³»
+N	java:S106("9Replace this use of System.out or System.err by a logger.(‰àÆ
+R
+java:S1128"7Remove this unused import 'javax.sound.midi.Soundbank'.(µÊøÿÿÿÿ
+D
+java:S1144")Remove this unused private "maps" method.(É»Ö†ÿÿÿÿÿ

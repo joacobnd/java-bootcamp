@@ -1,12 +1,13 @@
 package com.joaco;
 
-import com.github.javafaker.Faker;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+@SpringBootApplication
 public class Main {
     public static void main(String[] args) {
-        Faker faker = new Faker();
-        System.out.println(faker.name().fullName());
-        System.out.println(faker.address().city());
+        SpringApplication.run(Main.class, args);
+
     }
 }
 

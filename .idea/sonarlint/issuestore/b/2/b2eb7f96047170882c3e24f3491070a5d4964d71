@@ -1,0 +1,18 @@
+
+7
+java:S1643""Use a StringBuilder instead.(«šáÐþÿÿÿÿ
+`
+java:S2095"EUse try-with-resources or close this "Scanner" in a "finally" clause.(Èñ¾„ýÿÿÿÿ
+U
+java:S1610	"?Convert the abstract class "ExtractorReport" into an interface.(¤›¬ó
+[
+java:S1124	"EReorder the modifiers to comply with the Java Language Specification.(¤›¬ó
+Q
+java:S1854";Remove this useless assignment to local variable "pattern".(Ìµ‰Ú
+R
+java:S6353"<Use concise character class syntax '\\d' instead of '[0-9]'.(Ìµ‰Ú
+B
+java:S1481",Remove this unused "pattern" local variable.(Ìµ‰Ú
+S	java:S106*"9Replace this use of System.out or System.err by a logger.(æçÎÿþÿÿÿÿ
+S	java:S106,"9Replace this use of System.out or System.err by a logger.(±Ãžõüÿÿÿÿ
+N	java:S106-"9Replace this use of System.out or System.err by a logger.(ÿÎ§Â

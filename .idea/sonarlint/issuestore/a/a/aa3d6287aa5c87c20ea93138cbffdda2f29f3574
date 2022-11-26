@@ -1,0 +1,13 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ôÔß¨
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(û±ë
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(¾å×¬úÿÿÿÿ
+S	java:S106!"9Replace this use of System.out or System.err by a logger.(ÚòÈ³ùÿÿÿÿ
+S	java:S106""9Replace this use of System.out or System.err by a logger.(êÿ©£ıÿÿÿÿ
+S	java:S106#"9Replace this use of System.out or System.err by a logger.(ÚòÈ³ùÿÿÿÿ
+S	java:S106$"9Replace this use of System.out or System.err by a logger.(¾å×¬úÿÿÿÿ
+O
+java:S1128"9Remove this unused import 'java.util.function.Predicate'.(ïÍ–¶
+F
+java:S1144"+Remove this unused private "queues" method.(±¥­øùÿÿÿÿ

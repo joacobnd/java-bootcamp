@@ -77,10 +77,6 @@ f
 6src/main/java/com/joaco/exercises/MethodExercises.java,6\4\6450abec399c7324372619550ddd1f2e25a1814a
 b
 2src/main/java/com/joaco/NumberExtractorReport.java,b\b\bbad1b2ed39ff94cad740b5905b03774394dd298
-Z
-*src/main/java/com/joaco/person/Person.java,2\6\26cca100bfc24c09fe468b54b19c3bb6f282ddde
-a
-1src/main/java/com/joaco/person/PersonService.java,e\1\e17601ca06a2227ff2e216dc2d848994a7d3992a
 g
 7src/main/java/com/joaco/exercises/ScannerExercises.java,0\5\05f382168ac2a620d06957cd3721616ba7f006b4
 X
